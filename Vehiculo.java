@@ -4,7 +4,6 @@ public class Vehiculo {
     static int totalVehiculos = 0;
     public Vehiculo(){
     }
-
     public String getMarca() {
         return marca;
     }
