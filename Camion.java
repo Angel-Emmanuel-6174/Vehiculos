@@ -13,4 +13,4 @@ public class Camion extends Vehiculo{
     public void mostrarCapacidad(){
         System.out.println("La capacidad de carga es:"+this.capacidadCarga);
     }
-}   
+}
