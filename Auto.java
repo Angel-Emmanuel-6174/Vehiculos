@@ -13,7 +13,7 @@ public class Auto extends Vehiculo{
     }
 
     public void mostrarPuertas(){
-        System.out.println("El auto "+this.numeroPuertas+" mostra puertas");
+        System.out.println("El auto tiene "+this.numeroPuertas+" de puertas");
     }
 
 }
