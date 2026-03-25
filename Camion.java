@@ -6,4 +6,11 @@ public class Camion extends Vehiculo{
         this.numeroEjes = numeroEjes;
     }
 
-}
+    public void cargarMercancia(){
+        System.out.println("El camion "+getMarca()+" esta cargando mercancia");
+    }
+
+    public void mostrarCapacidad(){
+        System.out.println("La capacidad de carga es:"+this.capacidadCarga);
+    }
+}   
