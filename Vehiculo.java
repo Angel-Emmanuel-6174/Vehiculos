@@ -1,7 +1,6 @@
 public class Vehiculo {
     private String marca, modelo, anio;
     private double precio;
-    static int totalVehiculos = 0;
     public Vehiculo(){
     }
     public String getMarca() {
